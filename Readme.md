@@ -26,6 +26,7 @@
 * expression explicitly return unit value if they don't return any value.
 * ARRAY: every element of the array has to be the same type.Array must be of fixed lengths.
 
-## let a: [i32; 5] = [1, 2, 3, 4, 5]
+```rust
+let a: [i32; 5] = [1, 2, 3, 4, 5];
 
 * Rust avoids invalid memory accesses.
