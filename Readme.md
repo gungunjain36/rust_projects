@@ -24,4 +24,8 @@
 * There can be different types values in a tuple,
 * Tuple without any value is called a unit.
 * expression explicitly return unit value if they don't return any value.
-* 
+* ARRAY: every element of the array has to be the same type.Array must be of fixed lengths.
+
+## let a: [i32; 5] = [1, 2, 3, 4, 5]
+
+* Rust avoids invalid memory accesses.
