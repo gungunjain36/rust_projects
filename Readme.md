@@ -27,6 +27,6 @@
 * ARRAY: every element of the array has to be the same type.Array must be of fixed lengths.
 
 ```rust
-let a: [i32; 5] = [1, 2, 3, 4, 5];
+let a: [i32; 5] = [1, 2, 3, 4, 5]; ```
 
 * Rust avoids invalid memory accesses.
