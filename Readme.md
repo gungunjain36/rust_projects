@@ -14,3 +14,14 @@
 * A match expression is made up of arms. An arm consists of a pattern to match against, and the code that should be run if the value given to match fits that arm’s pattern. 
 * Shadowing lets us use the same variable name again or reassigning the value to a variable.
 * _ is a catchall value.
+* There are two datatype subsets: scalar and compound.
+* Scalar type represents a single value.
+* Rust has 2 floating types : f64 and f32, default is f64.
+* boolean type are 1 byte in size.
+* char type is 4 bytes in size. It represents Unicode scalar values.
+* compound types : group multiple values into 1. Rust has 2 compound types: arrays and tuples.
+* TUPLES: They have fixed lengths.
+* There can be different types values in a tuple,
+* Tuple without any value is called a unit.
+* expression explicitly return unit value if they don't return any value.
+* 
