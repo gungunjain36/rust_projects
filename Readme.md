@@ -45,7 +45,10 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 ```
 
 * Statements and expression in Rust:
-    - Statements: the instructions which perform some action and do not return a value.
-    - expression: evaluate to a resultant value.
-    
-     
+  * Statements: the instructions which perform some action and do not return a value.
+  * expression: evaluate to a resultant value.
+  * Function definitions are also statements.
+  * Statements do not return values.
+  * calling a function is not a statement.
+  * you cannot write x=y=9 in Rust. As let x = 9 is an statement, so it does not return any value assignable to any other variable.
+
