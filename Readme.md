@@ -31,3 +31,21 @@ let a: [i32; 5] = [1, 2, 3, 4, 5];
 ```
 
 * Rust avoids invalid memory accesses.
+
+* Functions in Rust
+```rust
+fn main() {
+    print_labeled_measurement(5, 'h');
+}
+
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {value}{unit_label}");
+}
+
+```
+
+* Statements and expression in Rust:
+    - Statements: the instructions which perform some action and do not return a value.
+    - expression: evaluate to a resultant value.
+    
+     
