@@ -51,4 +51,20 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
   * Statements do not return values.
   * calling a function is not a statement.
   * you cannot write x=y=9 in Rust. As let x = 9 is an statement, so it does not return any value assignable to any other variable.
+  * Calling a function is an expression. Calling a macro is an expression. A new scope block created with curly brackets is an expression
+  * Expressions do not include ending semicolons. If you add a semicolon to the end of an expression, you turn it into a statement,
+    and it will then not return a value.
+* FUNCTION RETURN VALUES:
+  *  You can return early from a function by using the return keyword and specifying a value, but most functions return the last expression implicitly.
 
+  ```rust
+  fn five() -> i32 {
+        5
+  }
+
+  fn main() {
+    let x = five();
+    println!("The value of x is: {x}");
+  }
+  ```
+  * 
